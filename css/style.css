@@ -156,6 +156,7 @@ input:active, textarea:active {
     border-radius: 30px;
     border: 1px solid #1085e4;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -174,6 +175,7 @@ input:active, textarea:active {
     padding: 21px 40px;
     border-radius: 30px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .btn-secondary:hover {
@@ -186,6 +188,7 @@ input:active, textarea:active {
     font-weight: 400;
     padding: 21px 56px;
     letter-spacing: 1.7px;
+    cursor: pointer;
 }
 
 .btn-group a + a {
@@ -202,6 +205,7 @@ input:active, textarea:active {
     padding: 21px 40px;
     border-radius: 30px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn-info:hover {
@@ -215,6 +219,104 @@ input:active, textarea:active {
     background-color: transparent;
 }
 
+.object-circle{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -363px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 413px;
+    height: 765px;
+background-image: url("../img/circle.png");
+}
+.object-rhombus{
+    display: block;
+    position: absolute;
+    right: 0;
+   top: -213px;
+    background-repeat: no-repeat;
+    width: 569px;
+    height: 661px;
+    background-image: url("../img/rhombus.png");
+}
+.intro{
+    color: rgba(0,0,0,0.04);
+    font-size: 300px;
+    font-weight: 900;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 39px;
+    text-align: center;
+    margin: 0;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea{
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    padding: 15px 25px;
+   box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+}
+.contact-form-item{
+    margin-bottom: 19px;
+    position: relative;
+
+}
+.contact-form-text{
+    margin-bottom: 32px;
+}
+.contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
+    color: #8995b3;
+}
+.contact-form input::-moz-placeholder, .contact-form textarea::-webkit-input-placeholder {
+    color: #8995b3;
+}
+.contact-form input:-moz-placeholder, .contact-form textarea::-webkit-input-placeholder {
+    color: #8995b3;
+}
+.contact-form input:-ms-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
+    color: #8995b3;
+}
+.contact-form .btn-primary{
+    position: relative;
+    padding: 22px 40px 22px 65px;
+    max-width: 232px;
+    letter-spacing: 2px;
+}
+.contact-form-name::after{
+    content: '';
+    background-image: url("../img/for-name.png");
+    display: block;
+    width: 13px;
+    height: 15px;
+    position: absolute;
+    left: 54px;
+    top: calc(50% - 6px);
+}
+.contact-form .btn-primary::before{
+    content: '';
+    background-image: url("../img/btn-point.png");
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.flex-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
 /* for pages */
 .screen-img {
     display: block;
@@ -342,13 +444,16 @@ input:active, textarea:active {
 
 .page-plans {
     text-align: center;
+    padding: 81px 0 121px 0;
 }
-
+.box-price .btn-primary{
+    padding: 20px 60px;
+}
 .box-price-item ul {
     list-style-type: none;
     padding-left: 0;
-    margin-top: 34px;
-    margin-bottom: 59px;
+    margin-top: 36px;
+    margin-bottom: 63px;
     font-size: 14px;
 }
 
@@ -375,7 +480,7 @@ input:active, textarea:active {
 .box-price {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 83px;
 
 }
 
@@ -384,7 +489,7 @@ input:active, textarea:active {
     font-size: 70px;
     letter-spacing: -1px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .box-price-item h3 span {
@@ -437,8 +542,12 @@ input:active, textarea:active {
     top: 9px;
     right: 8px;
     padding: 17px 50px;
-}
+    }
 
+.box-subscribe-user .btn-primary:active,
+.box-subscribe-user .btn-primary:focus {
+    outline: none;
+}
 .box-subscribe .title-h2 {
     font-size: 60px;
     line-height: 1.2;
@@ -466,15 +575,12 @@ input:active, textarea:active {
 .box-subscribe-user input::-webkit-input-placeholder {
     color: #b1c3ee;
 }
-
 .box-subscribe-user input::-moz-placeholder {
     color: #b1c3ee;
 }
-
 .box-subscribe-user input:-moz-placeholder {
     color: #b1c3ee;
 }
-
 .box-subscribe-user input:-ms-input-placeholder {
     color: #b1c3ee;
 }
@@ -692,7 +798,7 @@ a.video-app{
     background-image: url("../img/screen-analit.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 117px 0 137px 0;
+    padding: 117px 0 67px 0;
 
 }
 .flex-analytics{
@@ -785,3 +891,132 @@ color: #85c8ff;
 .box-info>div{
     padding-left: 17px;
     }
+.page-team{
+    text-align: center;
+    background-image: url("../img/bg-team.png");
+    background-repeat: no-repeat;
+    padding: 82px 0 20px 0;
+    background-position: center;
+
+}
+.page-team .title-40{
+    color: #ffffff;
+}
+.page-team .title-40 span{
+    color: #85c8ff;
+}
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    margin-top: 140px;
+}
+.box-team-items{
+    background-color: #ffffff;
+    flex-basis: 31.5%;
+    box-shadow: 0 5px 6px #f4f4f4;
+    position: relative;
+    padding: 193px 31px 42px 31px;
+    box-sizing: border-box;
+  }
+.box-team-items .position{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1a88e1;
+    font-weight: 900;
+    margin-bottom: 0;
+    letter-spacing: 2.1px;
+}
+.box-team-items .name{
+    font-size: 26px;
+       color: #192b59;
+    font-weight: 600;
+    margin-top: 8px;
+    letter-spacing: -0.9px;
+}
+.box-team-items .avatar{
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.box-team-items .btn-team{
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.box-team-items .btn-team:hover{
+    background-color: #1a88e1;
+}
+.box-team-items .btn-more span{
+    background-position: 0 0;
+    height: 20px;
+    width: 20px;
+}
+.box-team-items .btn-more:hover span{
+    background-position: -1px -32px;
+
+}
+.box-team-items .btn-team span{
+   background-image: url("../img/btn-team.png");
+   background-repeat: no-repeat;
+    display: block;
+      margin: 0 auto;
+align-self: center;
+}
+.box-team-items .btn-more:focus{
+    outline: none;
+}
+.social-team{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+.box-team-items .btn-fb span{
+    background-position: -30px 8px;
+    height: 35px;
+    width: 20px;
+}
+.box-team-items .btn-be span{
+    background-position: -92px 8px;
+    height: 35px;
+    width: 20px;
+}
+.box-team-items .btn-tw span{
+    background-position: -60px 8px;
+    height: 35px;
+    width: 20px;
+}
+.box-team-items .btn-web span{
+    background-position: -122px 8px;
+    height: 35px;
+    width: 20px;
+}
+.box-team-items .btn-fb:hover span{
+    background-position: -30px -25px;
+}
+.box-team-items .btn-tw:hover span{
+    background-position: -60px -25px;
+}
+.box-team-items .btn-be:hover span{
+    background-position: -92px -25px;
+}
+.box-team-items .btn-web:hover span{
+    background-position: -122px -22px;
+}
+.page-form{
+    background-image: url("../img/bg-form.png");
+    background-repeat: no-repeat;
+     background-position: center;
+    background-size: cover;
+}
