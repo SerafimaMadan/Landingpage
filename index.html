@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://use.fontawesome.com/93a0d08c4a.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Landing</title>
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png"
@@ -46,6 +47,7 @@
             <li><a href="#" class="nav-item">Team</a></li>
             <li><a href="" class="btn-primary btn-free">Free trail</a></li>
         </ul>
+        <button class="btn-menu" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M0 3h50v2H0zM0 17h50v2H0zM0 31h50v2H0zM0 45h50v2H0z"/></svg></button>
     </div>
     <div class="wrap">
         <h1>Best Software Landingpage</h1>
@@ -384,26 +386,39 @@
             <h2 class="title-40">Start Your Free Trail No Need Credit Card.</h2>
             <form class="contact-form" action="sendLetter">
                 <div class="contact-form-item contact-form-name"><input type="text" placeholder="Enter your name here"></div>
-                <div class="contact-form-item contact-form-email"><input type="email" placeholder="Enter your email here"></div>
+                <div class="contact-form-item contact-form-email"><input type="text" placeholder="Enter your email here"></div>
                 <div class="contact-form-item contact-form-textarea"><textarea name="textMessage" placeholder="Enter your message here"></textarea></div>
                 <button type="submit" class="btn-primary"><span></span>submit now</button>
+            </form>
         </div>
     </div>
 
-    </form>
+
 </div>
 <footer>
-    <div>
-        <p>Made With Love & Copyright By - <a href="">limpon</a></p>
+    <div class="wrap footer-social">
+        <p class="footer-inform">Made With Love & Copyright By - <a href="#">limpon</a></p>
         <ul class="social">
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
-            <li><a href="" target="_blank"></a></li>
+            <li><a href="#" target="_blank" class="icon"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank" class="icon"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank" class="icon"><i class="fa fa-behance"></i></a></li>
+            <li><a href="#" target="_blank" class="icon"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank" class="icon"><i class="fa fa-foursquare"></i></a></li>
         </ul>
     </div>
 </footer>
+<div class="modal">
+    <button class="btn-close"><span>&times;</span></button>
+    <ul class="nav-modal">
+        <li><a href="#" class="nav-item">Home</a></li>
+        <li><a href="#" class="nav-item">Features</a></li>
+        <li><a href="#" class="nav-item">Video</a></li>
+        <li><a href="#" class="nav-item">Screens</a></li>
+        <li><a href="#" class="nav-item">Pricing</a></li>
+        <li><a href="#" class="nav-item">Team</a></li>
+        <li><a href="" class="btn-primary btn-free">Free trail</a></li>
+    </ul>
+</div>
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -422,6 +437,12 @@
             $(".btn-thoma").hide();
             $(".social-thoma").fadeIn();
         });
+        $(".btn-menu").click(function(){
+            $(".modal").show()
+        })
+        $(".btn-close").click(function(){
+            $(".modal").hide()
+        })
     });
 </script>
 </body>

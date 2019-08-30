@@ -14,13 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="382" column="20" selection-start-line="382" selection-start-column="20" selection-end-line="382" selection-end-column="20" />
+            <state relative-caret-position="1819">
+              <caret line="393" lean-forward="true" selection-start-line="393" selection-end-line="393" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -42,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="262" column="26" selection-start-line="262" selection-start-column="26" selection-end-line="262" selection-end-column="26" />
+            <state relative-caret-position="35">
+              <caret line="1134" column="36" lean-forward="true" selection-start-line="1134" selection-start-column="36" selection-end-line="1134" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -70,10 +69,18 @@
         <option value="$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions" />
         <option value="D:/sites/edu/uniMail-master/uniMail-master/script/index.php" />
         <option value="D:/sites/edu/uniMail-master/uniMail-master/script/mail.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$USER_HOME$/Downloads/twitter.svg" />
+        <option value="$USER_HOME$/Downloads/twitter (1).svg" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="449" />
@@ -108,7 +115,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,17 +161,22 @@
       <workItem from="1565207481239" duration="2646000" />
       <workItem from="1565275647458" duration="70000" />
       <workItem from="1565352438070" duration="606000" />
+      <workItem from="1565891464912" duration="4766000" />
+      <workItem from="1565978995263" duration="1323000" />
+      <workItem from="1566313554091" duration="651000" />
+      <workItem from="1566410623084" duration="5273000" />
+      <workItem from="1567175637752" duration="938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121255000" />
+    <option name="totallyTimeSpent" value="134206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31236672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,19 +241,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="262" column="26" selection-start-line="262" selection-start-column="26" selection-end-line="262" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Downloads/twitter.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/twitter (1).svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="382" column="20" selection-start-line="382" selection-start-column="20" selection-end-line="382" selection-end-column="20" />
+        <state relative-caret-position="1819">
+          <caret line="393" lean-forward="true" selection-start-line="393" selection-end-line="393" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -259,6 +269,13 @@
             <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1134" column="36" lean-forward="true" selection-start-line="1134" selection-start-column="36" selection-end-line="1134" selection-end-column="36" />
         </state>
       </provider>
     </entry>
