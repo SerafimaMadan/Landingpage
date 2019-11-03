@@ -22,7 +22,7 @@ $(document).ready(function () {
 //for menu
 const positions = [], //for anchor
     currentActive = null, //for id
-    links = $('.nav-item, .nav-modal');
+    links = $('.nav-item, .nav-modal, btn-group');
 
 $(".anchor").each(function(){
     positions.push({
