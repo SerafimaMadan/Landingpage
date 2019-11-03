@@ -414,7 +414,7 @@ ul.nav-modal > li:last-child {
   width: 13px;
   height: 13px;
   position: absolute;
-  left: 54px;
+  left: 50px;
   top: calc(50% - 6px);
 }
 .flex-form {
@@ -617,6 +617,7 @@ ul.nav-modal > li:last-child {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 83px;
+  flex-wrap: wrap;
 }
 
 .box-price-item h3 {
@@ -1050,7 +1051,7 @@ a.video-app {
   position: relative;
   margin-top: 120px;
   padding: 43px 0 0 0;
-}
+ }
 
 .page-clients::before {
   content: "";
@@ -1081,6 +1082,7 @@ a.video-app {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 63px;
+  flex-wrap: wrap;
 }
 
 .block-clients-item {
@@ -1158,6 +1160,7 @@ a.video-app {
   justify-content: space-between;
   background-position: center;
   margin-top: 140px;
+  flex-wrap: wrap;
 }
 
 .box-team-items {
@@ -1356,9 +1359,7 @@ footer > .wrap {
   .page-analytics{
     background-image: none;
   }
-  
-  
-  .page-software-flex{
+    .page-software-flex{
     margin: 0 auto;
     text-align: center;
   }
@@ -1379,7 +1380,7 @@ footer > .wrap {
   .btn-menu {
     display: block;
   }
-  .wrap>img{
+  .wrap>img, .flex-form>img{
     display: none;
   }
   h1 {
@@ -1447,14 +1448,30 @@ footer > .wrap {
       max-width: 170px;
       margin: 0 auto 50px;
   }
-  .analistic-content, .page-control-text{
+  .analistic-content, .page-control{
     margin: 0 auto;
     text-align: center;
   }
   .intro{
     display: none;
   }
-}
+  .box-price, .block-clients, .box-team{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .box-price-item, .block-clients-item{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .box-team-items {
+    flex-basis: 100%;
+      margin-bottom: 100px;
+  }
+  .btn-primary{
+    text-align: center;
+    margin: 0 auto;
+  }
+  }
 @media (max-width: 850px) {
     .list-company-item{
         flex-basis: 50%;
