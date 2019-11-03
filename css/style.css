@@ -115,10 +115,11 @@ textarea:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.nav > li {
+  }
+  .nav > li {
   padding: 0 22px;
+  list-style: none;
+  float: left;
 }
 .nav > li:last-child {
   padding-right: 0;
@@ -285,6 +286,9 @@ ul.nav-modal > li {
 ul.nav-modal > li:last-child {
   margin-top: 30px;
 }
+ul.nav  li a:hover { 
+  text-decoration: underline;
+}
 .object-circle {
   display: block;
   position: absolute;
@@ -428,6 +432,8 @@ ul.nav-modal > li:last-child {
   align-items: center;
   max-width: 1090px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .flex-form > div {
   -ms-flex-preferred-size: 47%;
@@ -1336,14 +1342,15 @@ footer > .wrap {
   color: #0084ff;
 }
 /* media*/
-@media (max-width: 1500px) {
+@media (max-width: 1650px) {
   .screen-img {
     background-size: cover;
     width: 50%;
     height: 579px;
     top: 258px;
-  }
-  a.video-app {
+}
+@media (max-width: 1500px) {
+   a.video-app {
     right: 0;
     top: -23px;
   }
@@ -1467,11 +1474,7 @@ footer > .wrap {
     flex-basis: 100%;
       margin-bottom: 100px;
   }
-  .btn-primary{
-    text-align: center;
-    margin: 0 auto;
-  }
-  }
+    }
 @media (max-width: 850px) {
     .list-company-item{
         flex-basis: 50%;
